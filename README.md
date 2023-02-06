@@ -3,8 +3,6 @@
 
 A Cross-View Transformer Network for Place Recognition Using LiDAR Data. [arXiv](https://arxiv.org/abs/2302.01665)
 
-Junyi Ma, Guangming Xiong, Jingyi Xu, Xieyuanli Chen*
-
 CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated from LiDAR data to recognize previously visited places.
 
 ```
