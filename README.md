@@ -13,8 +13,7 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY) and [Xieyuanli Chen](https:/
 1. [Publications](#Publications)
 2. [Dependencies](#Dependencies)
 3. [How to use](#How-to-use)
-4. [Data preparation](#Data-preparation)
-5. [License](#License)
+4. [License](#License)
 
 ## Publications
 
@@ -39,7 +38,7 @@ Please refer to our [SeqOT repo](https://github.com/BIT-MJY/SeqOT).
 
 We provide a training and test tutorial for NCLT sequences in this repository. Before any operation, please modify the [setups](https://github.com/BIT-MJY/CVTNet/tree/main/config).
 
-## Data preparation
+### Data preparation
 
 * laser scans from NCLT dataset: [[2012-01-08](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-01-08_vel.tar.gz)]       [[2012-02-05](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-02-05_vel.tar.gz)]
 * [pretrained model](https://drive.google.com/file/d/1iQEY-DMDxchQ2RjG4RPkQcQehb_fujvO/view?usp=share_link)
