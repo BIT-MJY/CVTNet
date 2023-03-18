@@ -86,7 +86,9 @@ make -j6
 ## Data preparation
 
 * laser scans from NCLT dataset: [[2012-01-08](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-01-08_vel.tar.gz)]       [[2012-02-05](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-02-05_vel.tar.gz)]
-
+* [pretrained model](https://drive.google.com/file/d/1iQEY-DMDxchQ2RjG4RPkQcQehb_fujvO/view?usp=share_link)
+* [training indexes](https://drive.google.com/file/d/1jEcnuHjEi0wqe8GAoh6UTa4UXTu0sDPr/view)
+* [ground truth](https://drive.google.com/file/d/13-tpLQiHK4krd-womDV6UPevvHUIFNyF/view?usp=share_link)
 
 ## License
 
