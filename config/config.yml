@@ -65,3 +65,7 @@ cal_topn_recall:
   ground_truth: "/media/mjy/Samsung_T5/NCLT_dataset/gt_by_dis/gt_120108_120205.npy"
   # the number of top candidates
   topn: 20
+
+cpp_implementation:
+  # path of pretrained weights
+  weights: "/media/mjy/Samsung_T5/NCLT_dataset/ri_bev_weights_multi_input/cvtnet_weights/pretrained_model.pth.tar"
