@@ -1,0 +1,67 @@
+data_root:
+  # path of database RIVs and BEVs
+  ri_bev_database_root: "/media/mjy/Samsung_T5/NCLT_dataset/velodyne_data/2012-01-08_vel/ri_bev/"
+  # path of query RIVs and BEVs
+  ri_bev_query_root: "/media/mjy/Samsung_T5/NCLT_dataset/velodyne_data/2012-02-05_vel/ri_bev/"
+
+ri_bev_generation:
+  # path of source .bin files
+  source_scans_root: "/media/mjy/Samsung_T5/NCLT_dataset/velodyne_data/2012-01-08_vel/velodyne_sync/"
+  # path of target .npy files including RIVs and BEVs
+  target_ri_bev_root: "/media/mjy/Samsung_T5/NCLT_dataset/velodyne_data/2012-01-08_vel/ri_bev/"
+  # upper bound of vertical fov
+  fov_up: 30.67
+  # lower bound of vertical fov
+  fov_down: -10.67
+  # height of RIVs and BEVs
+  proj_H: 32
+  # width of RIVs and BEVs
+  proj_W: 900
+  # range thresholds to generate multi-layer inputs
+  range_th: [0, 15, 30, 45, 60]
+  # height thresholds to generate multi-layer inputs
+  height_th: [-4, 0, 4, 8, 12]
+
+train_cvtnet:
+  # path of training index
+  traindata_file: "/media/mjy/Samsung_T5/NCLT_dataset/train_set/more_chosen_normalized_data_120108.npy"
+  # the number of input layers for each view
+  num_layers: 5
+  # overlap threshold
+  overlap_th: 0.3
+  # initial learning rate
+  lr: 0.000005
+  # step size for decay
+  step_size: 5
+  # weight for decay
+  gamma: 0.9
+  # whether to shuffle training set
+  use_shuffle: False
+  # the number of positive samples for one batch
+  num_pos: 6
+  # the number of negative samples for one batch
+  num_neg: 6
+  # whether to resume from pretrained weights
+  resume: False
+  # path of pretrained weights
+  weights: "/media/mjy/Samsung_T5/NCLT_dataset/ri_bev_weights_multi_input/cvtnet_weights/pretrained_model.pth.tar"
+  # path to save weights
+  save_path: "/media/mjy/Samsung_T5/NCLT_dataset/ri_bev_weights_multi_input/cvtnet_weights/"
+
+test_cvtnet_prepare:
+  # path of pretrained weights
+  weights: "/media/mjy/Samsung_T5/NCLT_dataset/ri_bev_weights_multi_input/cvtnet_weights/pretrained_model.pth.tar"
+  # the number of input layers for each view
+  num_layers: 5
+  # the number of top candidates
+  topn: 20
+  # whether to save place recognition results
+  save_results: True
+
+cal_topn_recall:
+  # place recognition results from test_cvtnet_prepare.py
+  recog_list: "./pr_results.npz"
+  # ground truth
+  ground_truth: "/media/mjy/Samsung_T5/NCLT_dataset/gt_by_dis/gt_120108_120205.npy"
+  # the number of top candidates
+  topn: 20
