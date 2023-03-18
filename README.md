@@ -83,7 +83,7 @@ python ./gen_libtorch_model.py
 
 * Before building, make sure that [PCL](https://github.com/PointCloudLibrary/pcl) exists in your environment.
 * Here we use [LibTorch for CUDA 11.3 (Pre-cxx11 ABI)](https://download.pytorch.org/libtorch/cu113/libtorch-shared-with-deps-1.11.0%2Bcu113.zip). Please modify the path of **Torch_DIR** in [CMakeLists.txt](https://github.com/BIT-MJY/CVTNet/blob/main/CVTNet_libtorch/ws/CMakeLists.txt). 
-* For more details of LibTorch installation , please check this [website](https://pytorch.org/get-started/locally/).  
+* For more details of LibTorch installation, please check this [website](https://pytorch.org/get-started/locally/).  
 
 Then you can generate a descriptor of the provided 1.pcd by
 
