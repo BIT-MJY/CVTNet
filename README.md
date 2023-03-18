@@ -99,7 +99,11 @@ make -j6
 
 ## Miscs
 
-Thanks for your interest in our previous work [OverlapNet](https://github.com/PRBonn/OverlapNet), [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer) and [SeqOT](https://github.com/BIT-MJY/SeqOT) for LiDAR-based place recognition.
+Thanks for your interest in our previous work for LiDAR-based place recognition.
+
+* [OverlapNet](https://github.com/PRBonn/OverlapNet)
+* [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer)
+* [SeqOT](https://github.com/BIT-MJY/SeqOT) 
 
 ## License
 
