@@ -9,7 +9,7 @@ Developed by [Junyi Ma](https://github.com/BIT-MJY) and [Xieyuanli Chen](https:/
 
 
 <div align=center>
-<img src="https://github.com/BIT-MJY/CVTNet/blob/main/motivation.png" width="98%"/>
+<img src="https://github.com/BIT-MJY/CVTNet/blob/main/motivation.png" width="70%"/>
 </div>  
 
 ### Table of Contents
