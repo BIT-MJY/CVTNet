@@ -83,6 +83,11 @@ make -j6
 ./fast_cvtnet
 ```
 
+## Data preparation
+
+* laser scans from NCLT dataset: [2012-01-08](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-01-08_vel.tar.gz)    [2012-02-05](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-02-05_vel.tar.gz)
+
+
 ## License
 
 Copyright 2023, Junyi Ma, Guangming Xiong, Jingyi Xu, Xieyuanli Chen, Beijing Institute of Technology.
