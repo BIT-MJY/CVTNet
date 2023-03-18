@@ -57,6 +57,29 @@ python ./test_cvtnet_prepare.py
 python ./cal_topn_recall.py
 ```
 
+### C++ implementation
+
+We provide a toy example showing C++ implementation of CVTNet with libtorch. First, you need to generate the model file by
+
+```
+cd CVTNet_libtorch
+python ./gen_libtorch_model.py
+```
+
+* Before building, make sure that [PCL](https://github.com/PointCloudLibrary/pcl) exists in your environment.
+* Here we use [LibTorch for CUDA 11.3 (Pre-cxx11 ABI)](https://download.pytorch.org/libtorch/cu113/libtorch-shared-with-deps-1.11.0%2Bcu113.zip). Please modify the path of **Torch_DIR** in [CMakeLists.txt](https://github.com/BIT-MJY/CVTNet/blob/main/CVTNet_libtorch/ws/CMakeLists.txt). 
+* For more details of LibTorch installation , please check this [website](https://pytorch.org/get-started/locally/).  
+Then you can generate a descriptor of the provided 1.pcd by
+
+```
+cd ws
+mkdir build
+cd build
+cmake ..
+make -j6
+./fast_cvtnet
+```
+
 ## License
 
 Copyright 2023, Junyi Ma, Guangming Xiong, Jingyi Xu, Xieyuanli Chen, Beijing Institute of Technology.
