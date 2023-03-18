@@ -36,7 +36,7 @@ Please refer to our [SeqOT repo](https://github.com/BIT-MJY/SeqOT).
 
 ## How to use
 
-We provide a training and test tutorial for NCLT sequences in this repository. Before any operation, please modify the [setups](https://github.com/BIT-MJY/CVTNet/tree/main/config).
+We provide a training and test tutorial for NCLT sequences in this repository. Before any operation, please modify the [config file](https://github.com/BIT-MJY/CVTNet/tree/main/config) according to your setups.
 
 ### Data preparation
 
