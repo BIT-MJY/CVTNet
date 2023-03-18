@@ -96,6 +96,10 @@ make -j6
 ./fast_cvtnet
 ```
 
+## Miscs
+
+Thanks for your interest in your previous work [OverlapNet](https://github.com/PRBonn/OverlapNet), [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer) and [SeqOT](https://github.com/BIT-MJY/SeqOT) for LiDAR-based place recognition.
+
 ## License
 
 Copyright 2023, Junyi Ma, Guangming Xiong, Jingyi Xu, Xieyuanli Chen, Beijing Institute of Technology.
