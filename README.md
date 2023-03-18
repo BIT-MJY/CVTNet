@@ -7,6 +7,11 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 
 Developed by [Junyi Ma](https://github.com/BIT-MJY) and [Xieyuanli Chen](https://github.com/Chen-Xieyuanli).
 
+
+<div align=center>
+<img src="https://github.com/BIT-MJY/CVTNet/blob/main/motivation.png" width="98%"/>
+</div>  
+
 ### Table of Contents
 1. [Publications](#Publications)
 2. [Dependencies](#Dependencies)
