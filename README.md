@@ -106,9 +106,9 @@ make -j6
 
 Thanks for your interest in our previous work for LiDAR-based place recognition.
 
-* [OverlapNet](https://github.com/PRBonn/OverlapNet)
-* [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer)
-* [SeqOT](https://github.com/BIT-MJY/SeqOT) 
+* [OverlapNet](https://github.com/PRBonn/OverlapNet): Loop Closing for 3D LiDAR-based SLAM
+* [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer): An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition
+* [SeqOT](https://github.com/BIT-MJY/SeqOT): A Spatial-Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data
 
 ## License
 
