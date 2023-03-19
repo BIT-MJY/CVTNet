@@ -13,8 +13,9 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 1. [Publication](#Publication)
 2. [Dependencies](#Dependencies)
 3. [How to use](#How-to-use)
-4. [Miscs](#Miscs)
-5. [License](#License)
+4. [TODO](#Miscs)
+5. [Miscs](#Miscs)
+6. [License](#License)
 
 ## Publication
 
@@ -96,6 +97,10 @@ cmake ..
 make -j6
 ./fast_cvtnet
 ```
+
+## TODO
+- [x] Release the preprocessing code and pretrained model
+- [] Release sequence-enhanced CVTNet (SeqCVT)
 
 ## Miscs
 
