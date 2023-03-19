@@ -100,7 +100,7 @@ make -j6
 
 ## TODO
 - [x] Release the preprocessing code and pretrained model
-- [] Release sequence-enhanced CVTNet (SeqCVT)
+- [ ] Release sequence-enhanced CVTNet (SeqCVT)
 
 ## Miscs
 
