@@ -19,7 +19,7 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 
 ## Publication
 
-If you use the code in your work, please cite our [paper](https://ieeexplore.ieee.org/document/9994714):
+If you use the code in your work, please cite our [paper](https://arxiv.org/abs/2302.01665):
 
 ```
 @misc{ma2023cvtnet,
