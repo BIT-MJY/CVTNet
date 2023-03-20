@@ -5,9 +5,11 @@ A Cross-View Transformer Network for Place Recognition Using LiDAR Data. [[arXiv
 
 [Junyi Ma](https://github.com/BIT-MJY), Guangming Xiong, [Jingyi Xu](https://github.com/BIT-XJY), [Xieyuanli Chen*](https://github.com/Chen-Xieyuanli)
 
-CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated from LiDAR data to recognize previously visited places.
-
 <img src="https://github.com/BIT-MJY/CVTNet/blob/main/motivation.png" width="70%"/>
+
+CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated from LiDAR data to recognize previously visited places. RIVs and BEVs have the same shift for each yaw-angle rotation, which can be used to extract aligned features.
+
+<img src="https://github.com/haomo-ai/OverlapTransformer/blob/master/corresponding_rotation.gif" >  
 
 ### Table of Contents
 1. [Publication](#Publication)
