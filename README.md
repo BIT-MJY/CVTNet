@@ -80,7 +80,7 @@ You can also test the yaw-rotation invariance of CVTNet by
 
 ```
 cd test
-python ./test_yaw_rotation_invariance.py 
+python ./test_yaw_rotation_invariance.py
 ```
 
 <img src="https://github.com/BIT-MJY/CVTNet/blob/main/yaw_rotation_invariance.gif" width="70%"/>
