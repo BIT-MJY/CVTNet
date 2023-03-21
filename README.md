@@ -83,6 +83,8 @@ cd test
 python ./test_yaw_rotation_invariance.py 
 ```
 
+<img src="https://github.com/BIT-MJY/CVTNet/blob/main/yaw_rotation_invariance.gif" width="70%"/>
+
 ### C++ implementation
 
 We provide a toy example showing C++ implementation of CVTNet with libtorch. First, you need to generate the model file by
