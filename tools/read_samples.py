@@ -21,7 +21,14 @@ def read_one_ri_bev_from_seq(file_num, ri_bev_root):
     depth_bev_data_tensor = torch.unsqueeze(depth_bev_data_tensor, dim=0)
     return depth_bev_data_tensor
 
-
+def read_rotated_one_ri_bev_from_seq(file_num, ri_bev_root, divd):
+    depth_bev_data = np.load(ri_bev_root+file_num+".npy")
+    depth_bev_data_trans = np.zeros_like(depth_bev_data)
+    depth_bev_data_trans[:, :, -divd:] = depth_bev_data[:,:,:divd]
+    depth_bev_data_trans[:, :, :900-divd] = depth_bev_data[:,:, divd:]
+    depth_bev_data_tensor = torch.from_numpy(depth_bev_data_trans).type(torch.FloatTensor).cuda()
+    depth_bev_data_tensor = torch.unsqueeze(depth_bev_data_tensor, dim=0)
+    return depth_bev_data_tensor
 
 def read_one_batch_ri_bev_from_seq(f1_index, f1_seq, train_imgf1, train_imgf2, train_dir1, train_dir2,
                                   train_overlap, overlap_thresh, ri_bev_root):  # without end
