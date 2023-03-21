@@ -68,12 +68,19 @@ Note that we only train our model using the oldest sequence of NCLT dataset (201
 
 ### Test
 
-You can test CVTNet by
+You can test the PR performance of CVTNet by
 
 ```
 cd test
 python ./test_cvtnet_prepare.py
 python ./cal_topn_recall.py
+```
+
+You can also test the yaw-rotation invariance of CVTNet by
+
+```
+cd test
+python ./test_yaw_rotation_invariance.py 
 ```
 
 ### C++ implementation
