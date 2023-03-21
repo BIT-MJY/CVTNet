@@ -66,8 +66,8 @@ class testHandler():
             plt.axis("off")
 
             plt.subplot(425)
-            plt.title("rotated BEV")
-            rot_bev_img = rot_img.cpu().detach().numpy()[0, 5, :, :]
+            plt.title("rotated RIV")
+            rot_bev_img = rot_img.cpu().detach().numpy()[0, 0, :, :]
             plt.imshow(rot_bev_img)
             plt.axis("off")
             plt.subplot(427)
