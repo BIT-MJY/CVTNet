@@ -16,7 +16,7 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 2. [Dependencies](#Dependencies)
 3. [How to use](#How-to-use)
 4. [TODO](#Miscs)
-5. [Miscs](#Miscs)
+5. [Related work](#Related-work)
 6. [License](#License)
 
 ## Publication
@@ -115,7 +115,7 @@ make -j6
 - [x] Release the preprocessing code and pretrained model
 - [ ] Release sequence-enhanced CVTNet (SeqCVT)
 
-## Miscs
+## Related work
 
 Thanks for your interest in our previous work for LiDAR-based place recognition.
 
