@@ -11,7 +11,7 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 
 <img src="https://github.com/BIT-MJY/CVTNet/blob/main/corresponding_rotation.gif" width="70%"/>
 
-### Table of Contents
+## Table of Contents
 1. [Publication](#Publication)
 2. [Dependencies](#Dependencies)
 3. [How to use](#How-to-use)
