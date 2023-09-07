@@ -121,8 +121,38 @@ make -j6
 Thanks for your interest in our previous work for LiDAR-based place recognition.
 
 * [OverlapNet](https://github.com/PRBonn/OverlapNet): Loop Closing for 3D LiDAR-based SLAM
+
+```
+@inproceedings{chen2020rss, 
+  author = {X. Chen and T. L\"abe and A. Milioto and T. R\"ohling and O. Vysotska and A. Haag and J. Behley and C. Stachniss},
+  title  = {{OverlapNet: Loop Closing for LiDAR-based SLAM}},
+  booktitle = {Proceedings of Robotics: Science and Systems (RSS)},
+  year = {2020}
+}
+```
 * [OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer): An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition
+
+```
+@ARTICLE{ma2022ral,
+  author={Ma, Junyi and Zhang, Jun and Xu, Jintao and Ai, Rui and Gu, Weihao and Chen, Xieyuanli},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition}, 
+  year={2022},
+  volume={7},
+  number={3},
+  pages={6958-6965},
+  doi={10.1109/LRA.2022.3178797}}
+```
 * [SeqOT](https://github.com/BIT-MJY/SeqOT): A Spatial-Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data
+
+```
+@ARTICLE{ma2022tie,
+  author={Ma, Junyi and Chen, Xieyuanli and Xu, Jingyi and Xiong, Guangming},
+  journal={IEEE Transactions on Industrial Electronics}, 
+  title={SeqOT: A Spatial-Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data}, 
+  year={2022},
+  doi={10.1109/TIE.2022.3229385}}
+```
 
 ## License
 
