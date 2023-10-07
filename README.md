@@ -1,6 +1,6 @@
 # CVTNet
 
-A Cross-View Transformer Network for Place Recognition Using LiDAR Data. [[arXiv](https://arxiv.org/abs/2302.01665)]
+A Cross-View Transformer Network for Place Recognition Using LiDAR Data. [[arXiv](https://arxiv.org/abs/2302.01665)] [[IEEE Xplore](https://ieeexplore.ieee.org/document/10273716)]
 
 [Junyi Ma](https://github.com/BIT-MJY), Guangming Xiong, [Jingyi Xu](https://github.com/BIT-XJY), [Xieyuanli Chen*](https://github.com/Chen-Xieyuanli)
 
