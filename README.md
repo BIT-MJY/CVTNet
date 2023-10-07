@@ -25,14 +25,12 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 If you use the code in your work, please cite our [paper](https://arxiv.org/abs/2302.01665):
 
 ```
-@misc{ma2023cvtnet,
-      title={CVTNet: A Cross-View Transformer Network for Place Recognition Using LiDAR Data}, 
-      author={Junyi Ma and Guangming Xiong and Jingyi Xu and Xieyuanli Chen},
-      year={2023},
-      eprint={2302.01665},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@ARTICLE{10273716,
+  author={Ma, Junyi and Xiong, Guangming and Xu, Jingyi and Chen, Xieyuanli},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments}, 
+  year={2023},
+  doi={10.1109/TII.2023.3313635}}
 ```
 
 ## Dependencies
