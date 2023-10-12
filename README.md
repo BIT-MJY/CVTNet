@@ -2,7 +2,7 @@
 The code for our paper accepted by **IEEE Transactions on Industrial Informatics**:   
 ### CVTNet: A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments.
 
-[[IEEE Xplore TII 2023](https://ieeexplore.ieee.org/document/10273716)] [[arXiv](https://arxiv.org/abs/2302.01665)]
+[[IEEE Xplore TII 2023](https://ieeexplore.ieee.org/document/10273716)] [[arXiv](https://arxiv.org/abs/2302.01665)] [Supplementary Materials](https://ieeexplore.ieee.org/document/10273716/media#media)
 
 [Junyi Ma](https://github.com/BIT-MJY), Guangming Xiong, [Jingyi Xu](https://github.com/BIT-XJY), [Xieyuanli Chen*](https://github.com/Chen-Xieyuanli)
 
