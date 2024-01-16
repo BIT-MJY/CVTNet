@@ -116,7 +116,7 @@ make -j6
 
 ## Related Work
 
-Thanks for your interest in our previous work for LiDAR-based place recognition.
+Thanks for your interest in our previous OT series for LiDAR-based place recognition.
 
 * [OverlapNet](https://github.com/PRBonn/OverlapNet): Loop Closing for 3D LiDAR-based SLAM
 
