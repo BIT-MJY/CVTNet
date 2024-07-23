@@ -43,7 +43,7 @@ We provide a training and test tutorial for NCLT sequences in this repository. B
 
 ### Data Preparation
 
-## 1. data Preparation for NCLT dataset:
+####  1. data Preparation for NCLT dataset:
 
 * laser scans from NCLT dataset: [[2012-01-08](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-01-08_vel.tar.gz)]       [[2012-02-05](https://s3.us-east-2.amazonaws.com/nclt.perl.engin.umich.edu/velodyne_data/2012-02-05_vel.tar.gz)]
 * [pretrained model](https://drive.google.com/file/d/1iQEY-DMDxchQ2RjG4RPkQcQehb_fujvO/view?usp=share_link)
@@ -56,7 +56,7 @@ You need to generate RIVs and BEVs from raw LiDAR data by
 cd tools
 python ./gen_ri_bev.py
 ```
-## 1. data Preparation for KITTI dataset:
+### 2. data Preparation for KITTI dataset:
 
 
 
