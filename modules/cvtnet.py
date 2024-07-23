@@ -119,6 +119,10 @@ class featureExtracter_RI_BEV(nn.Module):
 
         self.use_transformer = use_transformer
 
+        ## for KITTI, you need revise this:
+        ## self.conv0 = nn.Conv2d(channels, 8, kernel_size=(2,1), stride=(2,1), bias=False)
+        ## self.conv1 = nn.Conv2d(8, 16, kernel_size=(2,1), stride=(2,1), bias=False)
+        
         self.conv1 = nn.Conv2d(channels, 16, kernel_size=(2,1), stride=(2,1), bias=False)
         self.conv1_add = nn.Conv2d(16, 16, kernel_size=(5,1), stride=(1,1), bias=False)
         self.conv2 = nn.Conv2d(16, 32, kernel_size=(3,1), stride=(1,1), bias=False)
@@ -139,7 +143,10 @@ class featureExtracter_RI_BEV(nn.Module):
 
 
     def forward(self, x_l):
+        ## for KITTI, you need revise this:
+        ## out_l = self.relu(self.conv0(x_l))  # [13, 16, 32, 900]
 
+        
         out_l = self.relu(self.conv1(x_l))
         out_l = self.relu(self.conv1_add(out_l))
         out_l = self.relu(self.conv2(out_l))
