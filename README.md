@@ -41,6 +41,8 @@ Please refer to our [SeqOT repo](https://github.com/BIT-MJY/SeqOT).
 
 We provide a training and test tutorial for NCLT sequences in this repository. Before any operation, please modify the [config file](https://github.com/BIT-MJY/CVTNet/tree/main/config) according to your setups.
 
+**[2024-07]** We thank [Xiongwei Zhao](https://github.com/Grandzxw) for helping release the utilization on KITTI dataset!
+
 ### Data Preparation
 
 ####  1. data preparation for NCLT dataset:
