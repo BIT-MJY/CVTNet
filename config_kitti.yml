@@ -1,0 +1,84 @@
+data_root:
+  # path of database RIVs and BEVs
+  ri_bev_database_root: "/home/hit/sda/place_recognition/KITTI/ri_bev/train/"
+  # path of query RIVs and BEVs
+  ri_bev_query_root: "/home/hit/sda/place_recognition/KITTI/ri_bev/test/"
+
+
+## KITTI: 03-10 train, 02 for validation, 00 for test
+ri_bev_generation:
+  # path of source .bin files
+  source_scans_root: "/home/hit/sda/Dataset/Ori_KITTI/sequences/"
+  # path of target .npy files including RIVs and BEVs
+  target_ri_bev_root: "/home/hit/sda/place_recognition/KITTI/ri_bev/test"
+  # upper bound of vertical fov
+  fov_up: 25.0
+  # lower bound of vertical fov
+  fov_down: 3.0
+  # height of RIVs and BEVs
+  proj_H: 64
+  # width of RIVs and BEVs
+  proj_W: 900
+  # range thresholds to generate multi-layer inputs
+  range_th: [0, 15, 30, 45, 80]
+  # height thresholds to generate multi-layer inputs
+  height_th: [-3, -1.5, 0, 1.5, 5]
+  # kitti_seqs
+  #train_seqs: ["03", "04", "05","06", "07", "08", "09"]
+  train_seqs: ["00"]
+
+
+
+train_cvtnet:
+  ri_bev_database_root: "/home/hit/sda/place_recognition/KITTI/ri_bev/train/"
+  # path of training index
+  traindata_file: "/home/hit/sda/place_recognition/CVTNet-main/tools/train_normalized_data.npy"
+  # the number of input layers for each view
+  num_layers: 5
+  # overlap threshold
+  overlap_th: 0.3
+  # initial learning rate
+  lr: 0.000005
+  # step size for decay
+  step_size: 5
+  # weight for decay
+  gamma: 0.9
+  # whether to shuffle training set
+  use_shuffle: False
+  # the number of positive samples for one batch
+  num_pos: 6
+  # the number of negative samples for one batch
+  num_neg: 6
+  # whether to resume from pretrained weights
+  resume: False
+  # path of pretrained weights
+  weights: "/home/hit/sda/place_recognition/CVTNet-main/KITTI/ri_bev_weights_multi_input/pretrained_model.pth.tar"
+  # path to save weights
+  save_path: "/home/hit/sda/place_recognition/CVTNet-main/KITTI/ri_bev_weights_multi_input"
+
+
+
+test_cvtnet_prepare:
+  ri_bev_database_root: "/home/hit/sda/place_recognition/KITTI/ri_bev/test/"
+  ri_bev_query_root: "/home/hit/sda/place_recognition/KITTI/ri_bev/test/"
+  # path of pretrained weights
+  weights: "/home/hit/sda/place_recognition/CVTNet-main/KITTI/ri_bev_weights_multi_inputamodel_cvtnet49.pth.tar"
+  # the number of input layers for each view
+  num_layers: 5
+  # the number of top candidates
+  topn: 10
+  # whether to save place recognition results
+  save_results: True
+
+
+cal_topn_recall:
+  # place recognition results from test_cvtnet_prepare.py
+  recog_list: "./pr_results.npz"
+  # ground truth
+  ground_truth: "/home/hit/sda/place_recognition/CVTNet-main/tools/gt_15dis.npy"
+  # the number of top candidates
+  topn: 10
+
+cpp_implementation:
+  # path of pretrained weights
+  weights: "/media/mjy/Samsung_T5/NCLT_dataset/ri_bev_weights_multi_input/cvtnet_weights/pretrained_model.pth.tar"
