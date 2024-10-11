@@ -132,9 +132,9 @@ make -j6
 ./fast_cvtnet
 ```
 
-### Test CVTNet on M2DGR
+### [2024-10] Test CVTNet on M2DGR
 
-We thank Jingyi Xu and Xianyun Jiao for their efforts to test CVTNet on [M2DGR dataset](https://github.com/SJTU-ViSYS/M2DGR), which was collected in our SJTU campus.
+We thank [Xianyun Jiao and Jingyi Xu]() for their efforts to test CVTNet on [M2DGR dataset](https://github.com/SJTU-ViSYS/M2DGR), which was collected in our SJTU campus by Yin et al..
 
 The related code is available at this [link](https://drive.google.com/file/d/10GCRTLjFptXakrlLv3NHZC0YXXR_1dA-/view?usp=drive_link).
 
