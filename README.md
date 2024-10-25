@@ -12,6 +12,7 @@ CVTNet fuses the range image views (RIVs) and bird's eye views (BEVs) generated 
 
 <img src="https://github.com/BIT-MJY/CVTNet/blob/main/corresponding_rotation.gif" width="70%"/>
 
+
 ## Table of Contents
 1. [Publication](#Publication)
 2. [Dependencies](#Dependencies)
@@ -139,6 +140,8 @@ We thank [Xianyun Jiao and Jingyi Xu](mailto:yage0080@sjtu.edu.cn) for their eff
 The related code is available at this [link](https://drive.google.com/file/d/10GCRTLjFptXakrlLv3NHZC0YXXR_1dA-/view?usp=drive_link).
 
 <img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/outdoor.png" width="70%"/>
+
+Sequences of [M2DGR dataset](https://github.com/SJTU-ViSYS/M2DGR)
 
 
 ## TODO
