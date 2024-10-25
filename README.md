@@ -138,6 +138,9 @@ We thank [Xianyun Jiao and Jingyi Xu](mailto:yage0080@sjtu.edu.cn) for their eff
 
 The related code is available at this [link](https://drive.google.com/file/d/10GCRTLjFptXakrlLv3NHZC0YXXR_1dA-/view?usp=drive_link).
 
+<img src="https://github.com/sjtuyinjie/mypics/blob/main/forgithub/outdoor.png" width="70%"/>
+
+
 ## TODO
 - [x] Release the preprocessing code and pretrained model
 - [ ] Release sequence-enhanced CVTNet (SeqCVT)
