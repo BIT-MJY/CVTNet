@@ -60,7 +60,7 @@ You need to generate RIVs and BEVs from raw LiDAR data by
 cd tools
 python gen_ri_bev.py
 ```
-#### 2. data preparation for KITTI dataset:
+#### 2. data preparation for KITTI dataset (provided by [Xiongwei](https://github.com/Grandzxw)):
 
 2.1 You need to generate RIVs and BEVs from raw LiDAR data for train datasets and test datasets by
 ```
